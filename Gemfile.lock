@@ -5,6 +5,9 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
     ffi (1.9.17)
+    ffi (1.9.17-java)
+    ffi (1.9.17-x64-mingw32)
+    ffi (1.9.17-x86-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
       addressable (~> 2.4)
@@ -21,6 +24,24 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-theme-architect (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-cayman (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-hacker (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-leap-day (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-midnight (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-minimal (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-primer (0.1.7)
+      jekyll (~> 3.3)
+    jekyll-theme-slate (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-tactile (0.0.3)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -40,13 +61,32 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    thread_safe (0.3.5)
+    thread_safe (0.3.5-java)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2016.10)
+      tzinfo (>= 1.0.0)
 
 PLATFORMS
+  java
   ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
 
 DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-feed (~> 0.6)
+  jekyll-theme-architect (~> 0.0.3)
+  jekyll-theme-cayman (~> 0.0.3)
+  jekyll-theme-hacker (~> 0.0.3)
+  jekyll-theme-leap-day (~> 0.0.3)
+  jekyll-theme-midnight (~> 0.0.3)
+  jekyll-theme-minimal (~> 0.0.3)
+  jekyll-theme-primer (~> 0.1.7)
+  jekyll-theme-slate (~> 0.0.3)
+  jekyll-theme-tactile (~> 0.0.3)
   minima (~> 2.0)
   tzinfo-data
 
